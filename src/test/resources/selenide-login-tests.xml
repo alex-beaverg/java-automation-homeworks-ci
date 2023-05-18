@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login selenide tests">
+    <test name="Login selenide tests" parallel="true" thread-count="1">
+        <groups>
+            <run>
+                <include name="for all tests" />
+                <include name="login tests" />
+            </run>
+        </groups>
+        <classes>
+            <class name="pageobject.SelenideTest" />
+        </classes>
+    </test>
+</suite>

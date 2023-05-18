@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Footer menu items selenide tests">
+    <test name="Footer menu items selenide tests" parallel="true" thread-count="1">
+        <groups>
+            <run>
+                <include name="for all tests" />
+                <include name="footer menu items tests" />
+            </run>
+        </groups>
+        <classes>
+            <class name="pageobject.SelenideTest" />
+        </classes>
+    </test>
+</suite>
